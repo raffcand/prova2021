@@ -7,9 +7,15 @@ package it.unisa.prova;
  */
 public class Main {
     public static void main(String args[]){
-        System.out.println("Hello, world");
-        System.out.println("Hello, universe");
-        System.out.println("Hello, metaverse");
+        salute("Fisciano");
+        salute("world");
+        salute("universe");
+        salute("Fisciano");
+        salute("metaverse");
+    }
+    
+    public static void salute(String whom){
+        System.out.println("Hello, "+whom);
     }
     
 }
